@@ -7,6 +7,10 @@ authors = ["dstepanov <StepanovDA89@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 fastapi = {extras = ["all"], version = "^0.68.1"}
+asyncpg = "^0.24.0"
+SQLAlchemy = {extras = ["asyncpg"], version = "^1.4.25"}
+alembic = "^1.7.3"
+python-dotenv = "^0.19.0"
 
 [tool.poetry.dev-dependencies]
 

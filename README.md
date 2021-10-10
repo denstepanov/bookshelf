@@ -1,3 +1,3 @@
 # BookShelf
 
-Wishlist and review app for book lovers.
+Wishlist and review app for book lovers
